@@ -10,7 +10,7 @@ There are many ways to get user input. We are going to use the `Scanner` class. 
 1. `nextInt()` reads integer value from user
 2. `nextFloat()` or `nextDouble()` reads a decimal value from user
 3. `nextBoolean()` 	reads boolean value from user
-4.`nextLine()` reads a String value
+4. `nextLine()` reads a String value
 
 ## String
 A collection of characters. Strings are immutable, which means they cannot be changed. 
@@ -98,3 +98,14 @@ Example:
 `String dinosaur = "Triceratops";`
 
 `String part = dinosaur.substring(2, 6);`
+
+String Length:
+
+To find the length of a string, you can use the method string.length(). This method returns the string as an integer.
+
+Example:
+
+`String name = "catherine";`
+
+`int length = name.length();` returns the integer value 9
+
